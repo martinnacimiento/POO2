@@ -1,17 +1,15 @@
 # Título del Proyecto
 
-## Grupo: Nombre Del Grupo
+## Grupo: Los 4 Fantásticos
 
-1. Integrante 1
-2. Integrante 2
-3. Integrante 3
-
-... 
-
-
+1. Añais, Raul Alejandro
+2. Nacimiento, Francisco Martin
+3. Potocki, Joaquín
+4. Silveira Do Santo, Facundo Omar
+ 
 ## Visión 
 
-...
+Pretendemos desarrollar un sistema automatizar la gestión de alumnado.
 
 ## Lista de características
 
