@@ -47,6 +47,25 @@ Pantalla 1
 
 _Por cada caso de uso especificar_
 
+__Inscribir Alumno__
+
+__Actores__: Preceptor
+
+__Objetivo__: Cargar datos de alumnos y tutores
+
+__Flujo Principal__:
+
+1. Este caso de uso comienza cuando el Preceptor selecciona la opcion inscribir Alumno.
+2. El sistema mostrará una pantalla de carga de datos.
+3. El preceptor completa los campos y selecciona la opcion "guardar" o "guardar y continuar" o "descartar".
+4. El sistema verifica que los campos obligatorios esten cargados y termina el caso de uso.
+
+_Flujos alternativos_
+
+3.1. Si el actor Selecciona la opcion guardar se realiza el paso 4 y finaliza el caso de uso.
+3.2. Si el actor Selecciona la opcion guardar y continuar se realiza el paso 4, se guarda un nuevo alumno y se vuelve al paso 2.
+3.3. Si el actor Selecciona la opcion descartar no se realiza ningun cambio y finaliza el caso de uso.
+
 __Titulo del Caso de Uso__
 
 __Actores__: Especificar actores
