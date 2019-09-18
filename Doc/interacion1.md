@@ -13,10 +13,17 @@ Gestión automatizada de alumnos de la escuela secundaria EPET Nro 38, localizad
 
 ## Lista de características
 
-1. ...
-2. ...
-3. ...
-4. ...
+1. Inscribir Alumno.
+2. Gestionar legajos. 
+3. Imprimir libretas. 
+4. Tomar Asistencias.
+5. Generar Libro de evaluación.
+6. Promover alumnos.
+7. Cargar Notas.
+8. Enviar Reportes de asistencias a los padres. 
+9. Generar LUA.
+10. Gestionar los pases.
+
 
 ## Análisis de Dominio
 
