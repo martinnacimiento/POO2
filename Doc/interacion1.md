@@ -9,7 +9,7 @@
  
 ## Visión 
 
-Pretendemos desarrollar un sistema automatizar la gestión de alumnado.
+Gestión automatizada de alumnos de la escuela secundaria EPET Nro 38, localizada en la ciudad de San Pedro, Misiones. El sistema permitirá a los usuarios (Docentes, preceptores y directivos), automatizar las actividades repetitivas y ahorrar tiempo. Estas actividades están centradas en la gestión de los legajos, los libros de evaluacion, gestionar pases, promover alumnos y generar el LUA (Legajo Unico del Alumno), con los reportes de novedades sobre las altas, bajas y pases de alumnos.
 
 ## Lista de características
 
