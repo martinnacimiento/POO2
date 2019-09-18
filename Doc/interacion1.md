@@ -40,8 +40,8 @@ Pantalla 1
 
 ### Actores
 
-1. Actor 1: descripción del actor 1.
-2. Actor 2: descripción del actor 2.
+1. Preceptor: Es el encargado de la gestion administrativa de los alumnos.
+2. Docente: Es el encargado de Calificar a un alumno y entregar planilla de notas de su materia.
 
 ...
 
