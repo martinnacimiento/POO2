@@ -66,6 +66,25 @@ _Flujos alternativos_
 3.2. Si el actor Selecciona la opcion guardar y continuar se realiza el paso 4, se guarda un nuevo alumno y se vuelve al paso 2.
 3.3. Si el actor Selecciona la opcion descartar no se realiza ningun cambio y finaliza el caso de uso.
 
+__Imprimir novedades__
+
+__Actores__: Director
+
+__Objetivo__: Generar un documento con las novedades que serán enviados al consejo de educación dos veces al año
+
+
+__Flujo Principal__:
+
+1. Este C.U comienza cuando el director selecciona la opción “ver novedades”.
+2. El sistema muestra una pantalla con todas las novedades.
+3. El director podrá realizar un filtrado por fecha, tipo de novedad, curso,etc.
+4. El sistema mostrará aquellas novedades que cumplan con el filtro.
+5. El director presionara el botón generar PDF.
+6. El sistema generará un PDF con todos los datos generados.
+
+_De ser necesario especificar flujos alternativos_
+
+
 __Titulo del Caso de Uso__
 
 __Actores__: Especificar actores
