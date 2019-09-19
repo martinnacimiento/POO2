@@ -27,7 +27,20 @@ Gestión automatizada de alumnos de la escuela secundaria EPET Nro 38, localizad
 
 ## Análisis de Dominio
 
-...
+
+__Inscribir alumno:__ Se toman los datos y documentos que alumno vaya trayendo a la escuela para su pre-inscripción.
+__Gestionar legajos:__ Se trata de un CRUD de los alumnos y sus tutores, esta inscripción es la oficial de alumno a la escuelo.
+__Imprimir libretas:__ Una vez cerrado cada trimestre se imprimirá un documento con las notas correspondientes a cada alumno.
+__Generar Libro de evaluación:__ Es el resumen de las notas de los alumnos de un curso en particular y sus materias. Por cada curso habrá un libro de evaluación, 5 libros de evaluación por año, 3 de los trimestres y dos por instancias de recuperatorios.
+__Promover alumnos:__  Cada cierre de ciclo si el alumno cumple con las condiciones preestablecidas será promovido al siguiente curso, en caso de que no cumpla las condiciones será promovido a los recuperatorios de diciembre o marzo según corresponda y si no logra cumplir con las condiciones de promoción recurrirá el año. 
+__Enviar Reportes de asistencias a los padres:__
+__Generar LUA:__El documento que se le manda al consejo de educación de la provincia, tiene datos que son requeridos por el consejo, tiene un formato a seguir, tiene fechas estipuladas de envíos, tiene información sobre pases de los alumnos y bajas.
+__Gestionar los pases:__En este proceso hay una constancia de pase (un documento) para decir las escuela que viene el estudiante.
+
+__Diccionario
+__Legajo:__ Son los datos de los alumnos y tutores. 
+__Libreta:__ Es un documento oficial de comunicación entre la escuela y el tutor, puede tener cualquier formato y queda como criterio de la escuela. (El orden de las materias es importante, según el libro matriz).
+__Documento de novedades:__ Es el documento que tiene la información de alumnos que se fueron e ingresaron a la escuela junto con datos de sus tutores, este documento se envía al consejo de educación es determinadas fechas.
 
 ## Bocetos de Interfaz de Usuario
 
@@ -112,8 +125,14 @@ Director de Flujo :
 De ser necesario especificar cambios alternativos
 
 ## Arquitectura
+La arquitectura propuesta para el sistema es Modelo, Vista y Controlador (MVC).
 
-- ...
-- ...
-- ...
+__Herramientas
+- Editor de texto: Visual Studio Code.
+- Gestor de paquetes: Maven.
+- Framework back-end: Javalin.
+- Framework front-end: Vue.js.
+- Librerías para el fron-end: Vuetify.
+- Control de versiones: Git y GitHub.
+- Base de datos: PostgreSQL.
 - ...
