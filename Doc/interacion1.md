@@ -32,11 +32,11 @@ Gestión automatizada de alumnos de la escuela secundaria EPET Nro 38, localizad
 ## Bocetos de Interfaz de Usuario
 
 
-![alt text](https://github.com/Nacimiento98/POO2/blob/master/Imagenes/IMG_20190919_151337669.jpg "Pantalla 1")
+![alt text](https://github.com/Nacimiento98/POO2/blob/master/Imagenes/IMG_20190919_151337669.jpg "Pantalla 1 C.U preinscripcion")
 
 Pantalla 1
 
-![alt text](https://github.com/Nacimiento98/POO2/blob/master/Imagenes/IMG_20190919_150015857.jpg "Pantalla 2")
+![alt text](https://github.com/Nacimiento98/POO2/blob/master/Imagenes/IMG_20190919_150015857.jpg "Pantalla 2 C.U novedades")
 
 ## Casos de Uso
 
