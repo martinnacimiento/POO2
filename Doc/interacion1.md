@@ -32,7 +32,7 @@ Gestión automatizada de alumnos de la escuela secundaria EPET Nro 38, localizad
 ## Bocetos de Interfaz de Usuario
 
 
-![alt text](https://github.com/cbiale/POO2/blob/master/iteraci%C3%B3n_1/oop.png "Pantalla 1")
+![alt text](https://github.com/Nacimiento98/POO2/blob/master/Imagenes/IMG_20190919_151337669.jpg "Pantalla 1")
 
 Pantalla 1
 
