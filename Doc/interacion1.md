@@ -82,22 +82,32 @@ __Flujo Principal__:
 5. El director presionara el botón generar PDF.
 6. El sistema generará un PDF con todos los datos generados.
 
-_De ser necesario especificar flujos alternativos_
+__Generar legajo__
 
+__Actores__: Preceptor
 
-__Titulo del Caso de Uso__
-
-__Actores__: Especificar actores
-
-__Objetivo__: Especificar objetivos
+__Objetivo__: Gestionar legajo para cada alumno que ya esté pre inscripto en el sistema
 
 __Flujo Principal__:
 
-1. ...
-2. ...
-3. ...
+1. Este C.U comienza cuando el actor selecciona la opción “gestionar legajo” 
+2. El sistema mostrará una pantalla en la cual podrá realizar búsqueda de alumnos por 3. distintos criterios o un alumno en particular.
+4. El actor seleccionará un alumno de la lista o el alumno buscado.
+5. El sistema mostrará por pantalla los datos de dicho alumno permitiendo al actor modificar los datos del alumno.
+6. El actor podrá visualizar o modificar los datos, en caso de modificarlos el actor elige la opción “guardar” y da fin al caso de uso.
 
-_De ser necesario especificar flujos alternativos_
+Titulo del Caso de Uso
+
+Actores : Especificar actores
+
+Objetivo : Especificar objetivos
+
+Director de Flujo :
+
+...
+...
+...
+De ser necesario especificar cambios alternativos
 
 ## Arquitectura
 
