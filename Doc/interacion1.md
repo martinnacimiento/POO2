@@ -36,6 +36,8 @@ Gestión automatizada de alumnos de la escuela secundaria EPET Nro 38, localizad
 
 Pantalla 1
 
+![alt text](https://github.com/Nacimiento98/POO2/blob/master/Imagenes/IMG_20190919_150015857.jpg "Pantalla 2")
+
 ## Casos de Uso
 
 ### Actores
