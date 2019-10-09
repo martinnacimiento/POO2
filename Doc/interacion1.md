@@ -13,34 +13,34 @@ Gestión automatizada de alumnos de la escuela secundaria EPET Nro 38, localizad
 
 ## Lista de características
 
-1. Inscribir Alumno.
-2. Gestionar legajos. 
-3. Imprimir libretas. 
+1. Inscribir Alumnos.
+2. Gestionar Legajos. 
+3. Imprimir Libretas. 
 4. Tomar Asistencias.
-5. Generar Libro de evaluación.
-6. Promover alumnos.
+5. Generar Libros de Evaluación.
+6. Promover Alumnos.
 7. Cargar Notas.
-8. Enviar Reportes de asistencias a los padres. 
+8. Enviar Reportes de Asistencias a los Padres. 
 9. Generar LUA.
-10. Gestionar los pases.
+10. Gestionar Pases.
 
 
 ## Análisis de Dominio
 
 
-__Inscribir alumno:__ Se toman los datos y documentos que alumno vaya trayendo a la escuela para su pre-inscripción.
-__Gestionar legajos:__ Se trata de un CRUD de los alumnos y sus tutores, esta inscripción es la oficial de alumno a la escuelo.
-__Imprimir libretas:__ Una vez cerrado cada trimestre se imprimirá un documento con las notas correspondientes a cada alumno.
-__Generar Libro de evaluación:__ Es el resumen de las notas de los alumnos de un curso en particular y sus materias. Por cada curso habrá un libro de evaluación, 5 libros de evaluación por año, 3 de los trimestres y dos por instancias de recuperatorios.
-__Promover alumnos:__  Cada cierre de ciclo si el alumno cumple con las condiciones preestablecidas será promovido al siguiente curso, en caso de que no cumpla las condiciones será promovido a los recuperatorios de diciembre o marzo según corresponda y si no logra cumplir con las condiciones de promoción recurrirá el año. 
-__Enviar Reportes de asistencias a los padres:__
+__Inscribir Alumnos:__ Se toman los datos y documentos que alumno vaya trayendo a la escuela para su pre-inscripción.
+__Gestionar Legajos:__ Se trata de un CRUD de los alumnos y sus tutores, esta inscripción es la oficial de alumno a la escuelo.
+__Imprimir Libretas:__ Una vez cerrado cada trimestre se imprimirá un documento con las notas correspondientes a cada alumno.
+__Generar Libro de Evaluación:__ Es el resumen de las notas de los alumnos de un curso en particular y sus materias. Por cada curso habrá un libro de evaluación, 5 libros de evaluación por año, 3 de los trimestres y dos por instancias de recuperatorios.
+__Promover Alumnos:__  Cada cierre de ciclo si el alumno cumple con las condiciones preestablecidas será promovido al siguiente curso, en caso de que no cumpla las condiciones será promovido a los recuperatorios de diciembre o marzo según corresponda y si no logra cumplir con las condiciones de promoción recurrirá el año. 
+__Enviar Reportes de Asistencias a los Padres:__
 __Generar LUA:__El documento que se le manda al consejo de educación de la provincia, tiene datos que son requeridos por el consejo, tiene un formato a seguir, tiene fechas estipuladas de envíos, tiene información sobre pases de los alumnos y bajas.
-__Gestionar los pases:__En este proceso hay una constancia de pase (un documento) para decir las escuela que viene el estudiante.
+__Gestionar Pases:__En este proceso hay una constancia de pase (un documento) para decir las escuela que viene el estudiante.
 
 __Diccionario
 __Legajo:__ Son los datos de los alumnos y tutores. 
 __Libreta:__ Es un documento oficial de comunicación entre la escuela y el tutor, puede tener cualquier formato y queda como criterio de la escuela. (El orden de las materias es importante, según el libro matriz).
-__Documento de novedades:__ Es el documento que tiene la información de alumnos que se fueron e ingresaron a la escuela junto con datos de sus tutores, este documento se envía al consejo de educación es determinadas fechas.
+__Documentos de novedades:__ Es el documento que tiene la información de alumnos que se fueron e ingresaron a la escuela junto con datos de sus tutores, este documento se envía al consejo de educación es determinadas fechas.
 
 ## Bocetos de Interfaz de Usuario
 
@@ -62,7 +62,7 @@ Pantalla 1
 
 _Por cada caso de uso especificar_
 
-__Inscribir Alumno__
+__Inscribir Alumnos__
 
 __Actores__: Preceptor
 
@@ -81,7 +81,7 @@ _Flujos alternativos_
 3.2. Si el actor Selecciona la opcion guardar y continuar se realiza el paso 4, se guarda un nuevo alumno y se vuelve al paso 2.
 3.3. Si el actor Selecciona la opcion descartar no se realiza ningun cambio y finaliza el caso de uso.
 
-__Imprimir novedades__
+__Imprimir Novedades__
 
 __Actores__: Director
 
@@ -90,14 +90,14 @@ __Objetivo__: Generar un documento con las novedades que serán enviados al cons
 
 __Flujo Principal__:
 
-1. Este C.U comienza cuando el director selecciona la opción “ver novedades”.
+1. Este caso de uso comienza cuando el director selecciona la opción “ver novedades”.
 2. El sistema muestra una pantalla con todas las novedades.
 3. El director podrá realizar un filtrado por fecha, tipo de novedad, curso,etc.
 4. El sistema mostrará aquellas novedades que cumplan con el filtro.
 5. El director presionara el botón generar PDF.
 6. El sistema generará un PDF con todos los datos generados.
 
-__Generar legajo__
+__Generar Legajo__
 
 __Actores__: Preceptor
 
@@ -105,7 +105,7 @@ __Objetivo__: Gestionar legajo para cada alumno que ya esté pre inscripto en el
 
 __Flujo Principal__:
 
-1. Este C.U comienza cuando el actor selecciona la opción “gestionar legajo” 
+1. Este caso de uso comienza cuando el actor selecciona la opción “gestionar legajo” 
 2. El sistema mostrará una pantalla en la cual podrá realizar búsqueda de alumnos por 3. distintos criterios o un alumno en particular.
 4. El actor seleccionará un alumno de la lista o el alumno buscado.
 5. El sistema mostrará por pantalla los datos de dicho alumno permitiendo al actor modificar los datos del alumno.
@@ -128,11 +128,11 @@ De ser necesario especificar cambios alternativos
 La arquitectura propuesta para el sistema es Modelo, Vista y Controlador (MVC).
 
 __Herramientas
-- Editor de texto: Visual Studio Code.
-- Gestor de paquetes: Maven.
-- Framework back-end: Javalin.
-- Framework front-end: Vue.js.
-- Librerías para el fron-end: Vuetify.
-- Control de versiones: Git y GitHub.
-- Base de datos: PostgreSQL.
+- Editor de Texto: Visual Studio Code.
+- Gestor de Paquetes: Maven.
+- Framework Back-End: Javalin.
+- Framework Front-End: Vue.js.
+- Librerías para el Fron-End: Vuetify.
+- Control de Versiones: Git y GitHub.
+- Base de Datos: MariaDB.
 - ...
